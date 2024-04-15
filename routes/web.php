@@ -24,4 +24,4 @@ Route::get('/login', [AuthController::class, 'login'])->name('login');
 
 Route::get('/addlink', [AuthController::class, 'addlink'])->name('addlink');
 
-Route::post('post/register', [AuthController::class, 'postregister'])->name('register.post');
+Route::post('postregister', [AuthController::class, 'postregister'])->name('register.post');
